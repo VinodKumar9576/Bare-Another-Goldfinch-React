@@ -87,7 +87,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1xaiBlK6dQDSgIuTBJAFRrdkhebZaRYG4" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1xaiBlK6dQDSgIuTBJAFRrdkhebZaRYG4&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
