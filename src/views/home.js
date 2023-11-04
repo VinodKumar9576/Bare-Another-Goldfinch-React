@@ -130,7 +130,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1gATm3-vvDDr5tTOBG4FVeJKp6UqjUYt6" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1gATm3-vvDDr5tTOBG4FVeJKp6UqjUYt6&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -178,7 +178,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1Tq8nTrnVBLA7s1QnilvC8_aTJh5eDn_R" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1Tq8nTrnVBLA7s1QnilvC8_aTJh5eDn_R&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -221,7 +221,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=14gx7WC9n9a2FHLOFIYekT5KRDv22lwGz" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=14gx7WC9n9a2FHLOFIYekT5KRDv22lwGz&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -264,7 +264,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1IV-zd1QPZcuXpdDW-4RlTUt9TsbPH4zt" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1IV-zd1QPZcuXpdDW-4RlTUt9TsbPH4zt&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -307,7 +307,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=16zjCg2tGm4dvktk6d1VYj7bUmjQhUBkS" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=16zjCg2tGm4dvktk6d1VYj7bUmjQhUBkS&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
