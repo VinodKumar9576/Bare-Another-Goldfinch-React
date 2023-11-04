@@ -3,7 +3,6 @@ import React from 'react'
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import GalleryCard3 from '../components/gallery-card3'
 import './home.css'
 
 const Home = (props) => {
@@ -88,7 +87,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/file/d/1xaiBlK6dQDSgIuTBJAFRrdkhebZaRYG4/view?usp=drive_link" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1IV-zd1QPZcuXpdDW-4RlTUt9TsbPH4zt" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -131,7 +130,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/file/d/1gATm3-vvDDr5tTOBG4FVeJKp6UqjUYt6/view?usp=drive_link" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1gATm3-vvDDr5tTOBG4FVeJKp6UqjUYt6" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -179,7 +178,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/file/d/1Tq8nTrnVBLA7s1QnilvC8_aTJh5eDn_R/view?usp=drive_link" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1Tq8nTrnVBLA7s1QnilvC8_aTJh5eDn_R" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -222,7 +221,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/file/d/14gx7WC9n9a2FHLOFIYekT5KRDv22lwGz/view?usp=drive_link" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=14gx7WC9n9a2FHLOFIYekT5KRDv22lwGz" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -265,7 +264,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/file/d/1IV-zd1QPZcuXpdDW-4RlTUt9TsbPH4zt/view?usp=drive_link" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1IV-zd1QPZcuXpdDW-4RlTUt9TsbPH4zt" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -308,7 +307,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/file/d/16zjCg2tGm4dvktk6d1VYj7bUmjQhUBkS/view?usp=drive_link" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=16zjCg2tGm4dvktk6d1VYj7bUmjQhUBkS" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -337,14 +336,15 @@ const Home = (props) => {
       <div className="home-features">
         <div className="home-features-container">
           <div className="home-features1">
+            <div className="home-container13"></div>
             <div className="home-hero2">
               <img
                 alt="image"
                 src="/Notebook images/1b-1000w.jpg"
                 className="home-image1"
               />
-              <div className="home-container13">
-                <div className="home-container14">
+              <div className="home-container14">
+                <div className="home-container15">
                   <Script
                     html={`<!DOCTYPE html>
 <html>
@@ -386,8 +386,8 @@ const Home = (props) => {
                   ></Script>
                 </div>
               </div>
-              <div className="home-container15">
-                <div className="home-container16">
+              <div className="home-container16">
+                <div className="home-container17">
                   <Script
                     html={`<!DOCTYPE html>
 <html>
@@ -442,56 +442,6 @@ const Home = (props) => {
           <span className="home-gallery-sub-heading">
             Explore some of the images from our website course
           </span>
-          <div className="home-container17">
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1522204538344-922f76ecc041?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName1"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName3"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1532618793091-ec5fe9635fbd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName2"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1422246358533-95dcd3d48961?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName4"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1513258496099-48168024aec0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName5"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1474377207190-a7d8b3334068?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName6"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName7"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1491234323906-4f056ca415bc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName8"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1631995390084-cb82295cd2c0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName9"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName10"
-            ></GalleryCard3>
-            <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTEwMzc5OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-              rootClassName="rootClassName11"
-            ></GalleryCard3>
-          </div>
         </div>
       </div>
       <div className="home-banner">
