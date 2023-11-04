@@ -87,7 +87,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1IV-zd1QPZcuXpdDW-4RlTUt9TsbPH4zt" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1xaiBlK6dQDSgIuTBJAFRrdkhebZaRYG4" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -130,7 +130,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1gATm3-vvDDr5tTOBG4FVeJKp6UqjUYt6" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1Xsofn4NjTfOuPKBHFaXPekLQ9QAOOrI0" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
