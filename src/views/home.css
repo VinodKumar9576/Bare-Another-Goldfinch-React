@@ -238,46 +238,46 @@
 .home-container02 {
   display: contents;
 }
-.home-image {
-  width: 1022px;
-  height: 1242px;
-  object-fit: cover;
-}
 .home-container03 {
-  top: 564px;
-  left: 385px;
+  top: 407px;
+  left: 511px;
   position: absolute;
 }
 .home-container04 {
   display: contents;
 }
+.home-image {
+  width: 1022px;
+  height: 1242px;
+  object-fit: cover;
+}
 .home-container05 {
-  top: 648px;
-  left: 375px;
+  top: 564px;
+  left: 385px;
   position: absolute;
 }
 .home-container06 {
   display: contents;
 }
 .home-container07 {
-  top: 491px;
-  left: 512px;
+  top: 648px;
+  left: 375px;
   position: absolute;
 }
 .home-container08 {
   display: contents;
 }
 .home-container09 {
-  top: 323px;
-  left: 363px;
+  top: 491px;
+  left: 512px;
   position: absolute;
 }
 .home-container10 {
   display: contents;
 }
 .home-container11 {
-  top: 407px;
-  left: 511px;
+  top: 323px;
+  left: 363px;
   position: absolute;
 }
 .home-container12 {
@@ -695,6 +695,39 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .home-container01 {
+    top: 84px;
+    left: 193px;
+  }
+  .home-container03 {
+    top: 163px;
+    left: 213px;
+    position: absolute;
+  }
+  .home-image {
+    width: 453px;
+    height: 557px;
+  }
+  .home-container05 {
+    top: 197px;
+    left: 252px;
+  }
+  .home-container07 {
+    left: 322px;
+    bottom: 97px;
+    position: absolute;
+  }
+  .home-container09 {
+    top: 402px;
+    right: 122px;
+    position: 0px;
+  }
+  .home-container11 {
+    top: 123px;
+    left: 210px;
+    width: 38px;
+    height: 37px;
+  }
   .home-features1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -706,6 +739,14 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-image1 {
+    width: 427px;
+    height: 503px;
+  }
+  .home-container13 {
+    top: -382px;
+    left: 171px;
   }
   .home-gallery1 {
     padding: var(--dl-space-space-unit);
