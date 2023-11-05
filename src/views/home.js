@@ -111,6 +111,11 @@ const Home = (props) => {
               ></Script>
             </div>
           </div>
+          <img
+            alt="image"
+            src="/Notebook images/1a-1100w.jpg"
+            className="home-image"
+          />
           <div className="home-container03">
             <div className="home-container04">
               <Script
@@ -130,7 +135,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1gATm3-vvDDr5tTOBG4FVeJKp6UqjUYt6&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1Tq8nTrnVBLA7s1QnilvC8_aTJh5eDn_R&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -154,11 +159,6 @@ const Home = (props) => {
               ></Script>
             </div>
           </div>
-          <img
-            alt="image"
-            src="/Notebook images/1a-1100w.jpg"
-            className="home-image"
-          />
           <div className="home-container05">
             <div className="home-container06">
               <Script
@@ -178,7 +178,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1Tq8nTrnVBLA7s1QnilvC8_aTJh5eDn_R&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=14gx7WC9n9a2FHLOFIYekT5KRDv22lwGz&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -221,7 +221,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=14gx7WC9n9a2FHLOFIYekT5KRDv22lwGz&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1IV-zd1QPZcuXpdDW-4RlTUt9TsbPH4zt&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -264,7 +264,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=1IV-zd1QPZcuXpdDW-4RlTUt9TsbPH4zt&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=16zjCg2tGm4dvktk6d1VYj7bUmjQhUBkS&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -307,7 +307,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/uc?export=download&id=16zjCg2tGm4dvktk6d1VYj7bUmjQhUBkS&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1gATm3-vvDDr5tTOBG4FVeJKp6UqjUYt6&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -362,50 +362,7 @@ const Home = (props) => {
     <div class="audio-control" onclick="toggleAudio()">
         <span id="audio-icon">🔊</span>
         <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/file/d/1yKxqhPprQDZh8I-H7m7v_heqcC6GxFlm/view?usp=drive_link" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    <script>
-        var audio = document.getElementById("audio");
-        var audioIcon = document.getElementById("audio-icon");
-
-        function toggleAudio() {
-            if (audio.paused) {
-                audio.play();
-                audioIcon.innerHTML = "🔊"; // Speaker on
-            } else {
-                audio.pause();
-                audioIcon.innerHTML = "🔈"; // Speaker off
-            }
-        }
-    </script>
-</body>
-</html>
-`}
-                  ></Script>
-                </div>
-              </div>
-              <div className="home-container16">
-                <div className="home-container17">
-                  <Script
-                    html={`<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        .audio-control {
-            cursor: pointer;
-        }
-        #audio-icon {
-            font-size: 30px; /* Adjust the size here */
-        }
-    </style>
-</head>
-<body>
-    <div class="audio-control" onclick="toggleAudio()">
-        <span id="audio-icon">🔊</span>
-        <audio id="audio" controls style="display: none">
-            <source src="https://drive.google.com/file/d/14gx7WC9n9a2FHLOFIYekT5KRDv22lwGz/view?usp=drive_link" type="audio/mpeg">
+            <source src="https://drive.google.com/uc?export=download&id=1yKxqhPprQDZh8I-H7m7v_heqcC6GxFlm&cachebuster=<?php echo time(); ?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -458,7 +415,7 @@ const Home = (props) => {
       <div className="home-faq"></div>
       <div className="home-footer">
         <footer className="home-footer1">
-          <div className="home-container18">
+          <div className="home-container16">
             <span className="home-logo2">WEBSITE</span>
             <nav className="home-nav1 home-nav1">
               <span className="home-nav12">Home</span>
@@ -469,7 +426,7 @@ const Home = (props) => {
             </nav>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container19">
+          <div className="home-container17">
             <span className="home-text">
               © 2023 myCompany, All Rights Reserved.
             </span>
@@ -486,6 +443,49 @@ const Home = (props) => {
             </div>
           </div>
         </footer>
+      </div>
+      <div>
+        <div className="home-container19">
+          <Script
+            html={`<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .audio-control {
+            cursor: pointer;
+        }
+        #audio-icon {
+            font-size: 30px; /* Adjust the size here */
+        }
+    </style>
+</head>
+<body>
+    <div class="audio-control" onclick="toggleAudio()">
+        <span id="audio-icon">🔊</span>
+        <audio id="audio" controls style="display: none">
+            <source src="https://drive.google.com/uc?export=download&id=1wnNQ7sg-uYPYHjVv2bNumnL2hKNJ7l-m" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <script>
+        var audio = document.getElementById("audio");
+        var audioIcon = document.getElementById("audio-icon");
+
+        function toggleAudio() {
+            if (audio.paused) {
+                audio.play();
+                audioIcon.innerHTML = "🔊"; // Speaker on
+            } else {
+                audio.pause();
+                audioIcon.innerHTML = "🔈"; // Speaker off
+            }
+        }
+    </script>
+</body>
+</html>
+`}
+          ></Script>
+        </div>
       </div>
     </div>
   )
